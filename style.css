@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/bkg.min.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.full-width-container {
+    width: 100%;
+}
+.get-fw {
+    width: 100%;
+}
+.set-hw {
+    width: 50%;
+}
+
+.header-divider {
+    border: 1px solid #750f64;
+    padding: 0;
+    margin: 0;
+}
+
+/* .pd-t-5 {
+    padding-top: 5px;
+}
+.pd-t-10 {
+    padding-top: 10px;
+}
+.pd-t-15 {
+    padding-top: 15px;
+}
+.pd-b-5 {
+    padding-bottom: 5px;
+}
+.pd-b-10 {
+    padding-bottom: 10px;
+}
+.pd-b-15 {
+    padding-bottom: 15px;
+}
+.pd-all-5 {
+    padding: 5px;
+}
+.pd-all-10 {
+    padding: 10px;
+}
+.pd-all-15 {
+    padding: 15px;
+}
+.pd-all-20 {
+    padding: 15px;
+}
+.mg-t-5 {
+    margin-top: 5px;
+}
+.mg-t-10 {
+    margin-top: 10px;
+}
+.mg-t-15 {
+    margin-top: 15px;
+}
+.mg-b-5 {
+    margin-bottom: 5px;
+}
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+.mg-b-15 {
+    margin-bottom: 15px;
+}
+.mg-l-5 {
+	margin-left: 5px;
+}
+.mg-l-10 {
+	margin-left: 10px;
+}
+.mg-l-15 {
+	margin-left: 15px;
+}
+.mg-r-15 {
+	margin-right: 15px;
+}
+.mg-all-10 {
+    margin: 10px;
+}
+.mg-all-15 {
+    margin: 15px;
+} */
+
+.bd-red {
+    border: 1px solid red;
+}
+.bd-black {
+    border: 1px solid black;
+}
+.bd-gray {
+    border: 1px solid gray;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: green;
+}
+
+.hide {
+    display:none;
+}
+
+.link-pointer {
+    cursor: pointer;
+}
+
+/* .flex {
+    display: flex;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-align-center {
+    align-items: center;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+} */
+
+.owdc-header {
+    background-color: rgba(117, 15, 100, 0.2);
+}
+
+.img-logo {
+    width: auto;
+    height: 130px;
+}
+
+.left-container, .right-container {
+    width: 50%;
+}
+
+.prime-clr {
+    color: #750f64;
+}
+
+.btn-purple {
+    background-color: #750f64;
+    color: white;
+    font-weight: bold;
+}
+
+.bkg-purple {
+    background-color: rgba(117, 15, 100, 0.5);
+}
+
+.navbtn-purple-link:link, .navbtn-purple-link:hover, .navbtn-purple-link:active, .navbtn-purple-link:visited {
+    color: white;
+}
+.navtxt-purple-link, .navtxt-purple-link:link, .navtxt-purple-link:hover, .navtxt-purple-link:active, .navtxt-purple-link:visited {
+    color: #750f64;
+    font-weight: bold;
+}
+
+.btn-no-border {
+    border: none;
+}
+
+.owdc_input {
+    padding: 5px;
+    width: 49%;
+    margin: 2px 0 3px 0;
+}
+
+.about-us-section {
+    background-color: white;
+}
+.about-us-section div {
+    width: 33%;
+}
+
+.our-partners {
+    width: 100%;
+}
+
+.about-us-section-b-container {
+    background-color: rgba(237, 97, 214, 0.2);
+}
+
+.about-us-section-b {
+}
+
+.about-us-section-b-img div, .about-us-section-b div {
+    width: 50%;
+}
+
+.about-us-dc1 {
+    background-image: url(./assets/Doctor-pic-1.min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-us-dc2 {
+    background-image: url(./assets/Doctor-pic-2.min.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+
+.about-us-section-c {
+    width: 50%;
+}
+
+.about-us-section-c-pict1 {
+    background-image: url(./assets/Dental-Clinic.min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-us-section-c-pict2 {
+    background-image: url(./assets/Drs-Mike-and-Boone.min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.service-section-img {
+    width: 40%;
+}
+
+.service-b-gd, .service-b-pd, .service-b-od {
+    width: 33%;
+}
+
+.services-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.services-grid-items {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.services-grid-container img {
+    height: 150px;
+    width: auto;
+}
+
+/* Media Queries */
+/* Tablet */
+@media only screen and (min-width: 768px){
+    .services-grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px){
+    .services-grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
