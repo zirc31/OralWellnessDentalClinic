@@ -14,7 +14,7 @@ body {
 .full-width-container {
     width: 100%;
 }
-.get-fw {
+.get-fw, .set-fw {
     width: 100%;
 }
 .set-hw {
@@ -153,6 +153,16 @@ body {
 .prime-clr {
     color: #750f64;
 }
+.sec-clr {
+    color: #750f64;
+}
+.def-clr {
+    color: #696969; /* dimgray */
+}
+.prime-clr a:link {
+    color: #750f64;
+    text-decoration: none;
+}
 
 .btn-purple {
     background-color: #750f64;
@@ -254,10 +264,29 @@ body {
     width: auto;
 }
 
+.loc-section-img, .contact-us-img {
+    width: 70%;
+}
+
+.loc-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.loc-grid-img {
+    width: 50%;
+}
+.loc-grid-items {
+    margin-bottom: 35px;
+}
+
+
+
 /* Media Queries */
 /* Tablet */
 @media only screen and (min-width: 768px){
-    .services-grid-container {
+    .services-grid-container, .loc-grid-container {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr;
     }
