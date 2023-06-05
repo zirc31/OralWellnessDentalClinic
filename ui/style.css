@@ -306,10 +306,6 @@ body {
 
 
 /* Calendar */
-.reset-calendar {
-    padding: 0;
-    margin: 0;
-}
 .owdc-calendar {
     border: 1px solid rgba(117, 15, 100, 0.5);
 }
@@ -335,6 +331,22 @@ body {
     font-size: small;
 }
 
+/* Patient Table */
+.patient-table {
+    border: 1px solid rgba(117, 15, 100, 0.5);
+}
+.patient-table th, .patient-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgba(117, 15, 100, 0.5);
+}
+.patient-table th {
+    color: #000;
+    background-color: #f902d2;
+}
+.patient-table td, .patient-table-number {
+    background-color: #ff68e6;
+}
 
 /* Media Queries */
 /* Tablet */
