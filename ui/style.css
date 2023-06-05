@@ -14,6 +14,12 @@ body {
 .full-width-container {
     width: 100%;
 }
+.full-vh {
+    height: 100vh;
+}
+.h-99vh {
+    height: 99vh;
+}
 .get-fw, .set-fw {
     width: 100%;
 }
@@ -164,8 +170,25 @@ body {
     text-decoration: none;
 }
 
+.vertical-hr-parent {
+    position: relative;
+}
+.vertical-hr-purple {
+    width: 1px;
+    height: 100%;
+    border: 1px solid #750f64;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .btn-purple {
     background-color: #750f64;
+    color: white;
+    font-weight: bold;
+}
+.btn-purple-05 {
+    background-color: rgba(117, 15, 100, 0.5);
     color: white;
     font-weight: bold;
 }
@@ -281,6 +304,36 @@ body {
     margin-bottom: 35px;
 }
 
+
+/* Calendar */
+.reset-calendar {
+    padding: 0;
+    margin: 0;
+}
+.owdc-calendar {
+    border: 1px solid rgba(117, 15, 100, 0.5);
+}
+.owdc-calendar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.owdc-calendar-title {
+    text-align: center;
+    font-weight: bold;
+}
+.owdc-box {
+    border: 1px solid rgba(117, 15, 100, 0.5);
+    position: relative;
+}
+.owdc-box-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.owdc-box-item {
+    text-align: center;
+    font-size: small;
+}
 
 
 /* Media Queries */
