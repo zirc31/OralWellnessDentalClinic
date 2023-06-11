@@ -29,7 +29,7 @@
                             </button>
                         </div>
                         <div class="get-fw text-center">
-                            <button class="btn-purple get-fw px-3 py-2 btn-no-border">
+                            <button class="btn-purple-05 get-fw px-3 py-2 btn-no-border">
                                 Patient
                             </button>
                         </div>
@@ -40,93 +40,78 @@
 
                             <h3 class="fw-bold prime-clr">Admin View</h3>
 
-                            <div class="get-fw d-flex">
-                                <div class="set-hw">
-                                    <button class="btn-purple px-5 py-2 btn-no-border">
-                                        + Add Patient
-                                    </button>
+                            <h1 class="fw-bold thir-clr text-center">View Report</h1>
+
+                            <div class="get-fw pb-2 d-flex">
+                                <div class="set-hw px-5">
+                                    <p>
+                                        <strong>Patient Name:</strong> Juan A. Dela Cruz
+                                    </p>
+                                    <p>
+                                        <strong>Age:</strong> 31
+                                    </p>
+                                    <p>
+                                        <strong>Sex:</strong> Male
+                                    </p>
                                 </div>
-                                <div class="set-hw text-center pb-2">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="search">&nbsp;
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="Search . . ." aria-label="search" aria-describedby="search">
-                                    </div>
+                                <div class="set-hw px-5">
+                                    <p>
+                                        <strong>Phone number:</strong> +63 912 234 2345
+                                    </p>
+                                    <p>
+                                        <strong>Address:</strong> 123 Street City, Province
+                                    </p>
+                                    <p>
+                                        <strong>Date of Birth:</strong> 02/06/1990
+                                    </p>
                                 </div>
+                            </div>
+
+                            <div class="set-hw text-center pb-2">
+                                <button class="btn-purple get-fw px-3 py-2 btn-no-border">
+                                    + Add Patient
+                                </button>
                             </div>
 
                             <table class="table patient-table">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">Patient ID</th>
-                                        <th scope="col">Patient Name</th>
-                                        <th scope="col">Age</th>
-                                        <th scope="col">Contact Number</th>
-                                        <th scope="col">Address</th>
-                                        <th scope="col">Sex</th>
-                                        <th scope="col">Date of Birth</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Services</th>
+                                        <th scope="col">No. of teeth</th>
+                                        <th scope="col">Remarks</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>0001</td>
-                                        <td>Juan A. Dela Cruz</td>
-                                        <td></td>
-                                        <td>09123456789</td>
-                                        <td>Antipolo</td>
-                                        <td>M</td>
-                                        <td>January 01, 1999</td>
+                                        <td>05/23/23</td>
+                                        <td>Braces</td>
+                                        <td>#9</td>
                                         <td>
                                             <div class="get-fw d-flex">
                                                 <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
-                                                    View Reports
-                                                </button>
-                                                <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
                                                     Edit
-                                                </button>
-                                                <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
-                                                    Delete
                                                 </button>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>0002</td>
-                                        <td>Jannah Smith</td>
-                                        <td></td>
-                                        <td>09987654321</td>
-                                        <td>Cainta</td>
-                                        <td>F</td>
-                                        <td>February 20, 1990</td>
+                                        <td>05/23/23</td>
+                                        <td>Braces</td>
+                                        <td>#9</td>
                                         <td>
                                             <div class="get-fw d-flex">
                                                 <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
-                                                    View Reports
-                                                </button>
-                                                <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
                                                     Edit
-                                                </button>
-                                                <button class="btn-purple get-fw p-2 m-1 mr-2 btn-no-border">
-                                                    Delete
                                                 </button>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -138,17 +123,9 @@
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
