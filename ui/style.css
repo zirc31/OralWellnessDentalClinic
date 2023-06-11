@@ -162,6 +162,9 @@ body {
 .sec-clr {
     color: #750f64;
 }
+.thir-clr {
+    color: #000;
+}
 .def-clr {
     color: #696969; /* dimgray */
 }
@@ -182,8 +185,18 @@ body {
     left: 0;
 }
 
+.btn-grey {
+    background-color: #606060;
+    color: white;
+    font-weight: bold;
+}
 .btn-purple {
     background-color: #750f64;
+    color: white;
+    font-weight: bold;
+}
+.btn-magenta {
+    background-color: #f902d2;
     color: white;
     font-weight: bold;
 }
